@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'screens/home_screen.dart';
-// import 'screens/home_work.dart';
-import 'screens/home_work_one.dart';
+import 'screens/home_work_two.dart';
 
 
 void main() {
@@ -15,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeWorkOne(),
+      home: HomeWorkTwo(),
     );
   }
 }
